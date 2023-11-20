@@ -14,7 +14,7 @@ The initial data retrieved does not provide any conclusive evidence of a relatio
 
 ## Challenges 
 While the APIs for Four Square and City Bikes are rather easy to use, the data retrieved was inconsistent. At times, calls made in relatively short periods would produce different results.
-In the case of City Bikes, it seemed that the function of stations reporting data would breakdown at times, resulting in nulls or totally absent data. 
+In the case of City Bikes, it seemed that the stations reporting data would breakdown at times, resulting in nulls or totally absent data, as well as the total number of rows returned varying. 
 
 Similarly, Four Square would seem to provide different information for the same latitude and longitude on different days. 
 Whether these issues were encountered due to the frequency of queries or being flagged deliberately due to the same cannot be determined at this time.
@@ -22,4 +22,4 @@ Whether these issues were encountered due to the frequency of queries or being f
 Also, Yelp simply did not track informatoin about the locations I was interested in.
 
 ## Future Goals
-(what would you do if you had more time?)
+Automation of the collection process would by high on the list of future additions, as well as developing an off-line list of CTA station coordinates to join with the City Bike API, to avoid calling the Four Square API, as that query could take ten minutes to process.
