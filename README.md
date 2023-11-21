@@ -22,4 +22,4 @@ Whether these issues were encountered due to the frequency of queries or being f
 Also, Yelp simply did not track informatoin about the locations I was interested in.
 
 ## Future Goals
-Automation of the collection process would by high on the list of future additions, as well as developing an off-line list of CTA station coordinates to join with the City Bike API, to avoid calling the Four Square API, as that query could take ten minutes to process.
+Automation of the collection process would by high on the list of future additions, as well as developing a corrected and off-line list of CTA station coordinates to join with the City Bike API, to ensure the data from Four Square is accurate.
